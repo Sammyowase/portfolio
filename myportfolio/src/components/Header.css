@@ -1,0 +1,101 @@
+
+
+.header {
+    background: linear-gradient(135deg, #333, #555);
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 2em;
+  }
+  
+
+  
+    
+  .Navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 100vw;
+      min-height: 59px;
+      padding: 0px 50px;
+      background-color: white;
+      position: sticky;
+      top: 0px;
+      z-index: 1000;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    h1{
+        font-size: 20px;
+        font-weight: 900;
+        font-style: italic;
+        margin: 0px 20px;
+        color: #666666;
+    }
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+
+    a{
+        margin: 0px 15px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #666666;
+        position: relative;
+        padding: 0.5em;
+        transition: color 0.3s ease, transform 0.3s ease;
+        @media (max-width: 800px) {
+          display: none;
+      }
+      }
+
+    a::after {
+      content: '';
+      width: 0;
+      height: 2px;
+      background: #00aced;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transition: width 0.3s ease, left 0.3s ease;
+
+    }
+    
+    a:hover::after {
+      width: 100%;
+      left: 0;
+    }
+    
+  a:hover {
+      color: rgb(127, 127, 149);
+    }
+  
+}
+
+.icon{
+    display: none;
+    font-size: 30px;
+    margin-left: -30px;
+    @media (max-width: 800px) {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+

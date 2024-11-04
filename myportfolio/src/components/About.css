@@ -1,0 +1,33 @@
+
+
+.about {
+    background-color: #f9f9f9;
+    text-align: center;
+    /* padding: 60px 20px; */
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+    min-height: 100vh;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

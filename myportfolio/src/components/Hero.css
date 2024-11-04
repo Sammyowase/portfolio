@@ -1,0 +1,105 @@
+
+
+.hero {
+    background: linear-gradient(135deg, #0078ff, #00aced);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .hero-content {
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: block;
+    margin: auto;
+  }
+  
+  .cta-btn:hover {
+    background-color: #444;
+    transform: translateY(-2px);
+  }
+  
+div{
+  background-color: #fff;
+}
+  .heroBar{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 10px;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .TextBox{
+    max-width: 636px;
+    max-height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media (max-width: 800px) {
+    max-width: 100%;
+   align-items: center;
+   text-align: center;
+  }}
+
+ .imageBox{
+  max-width: 359px;
+  max-height: 359px;
+  border: 10px solid #e70faa;
+  border-radius: 230px;
+ }
+ img{
+  max-width: 209px;
+  border-radius: 350px;
+ }
+
+ span{
+  font-weight: 700;
+  font-size: 58px;
+  color: #13b0f5;
+  margin-bottom: 20px;
+ }
+
+ h1{
+  font-weight: 700;
+  font-size: 58px;
+  margin-bottom: 20px;
+ }
+
+ .wave {
+  font-weight: 700;
+  font-size: 58px;
+  color: yellow;
+ }
+ p{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+ }
