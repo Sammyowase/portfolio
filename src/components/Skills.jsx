@@ -1,7 +1,7 @@
 
 import './Skills.css';
 
-const skills = ["JavaScript", "React", "CSS", "HTML", "Responsive Design", "UI/UX Basics"];
+const skills = ["JavaScript", "TypeScript" , "NextJs", "Nodejs", "Expressjs", "Postman", "MongoDb", "React", "CSS", "HTML", "Responsive Design", "UI/UX "];
 
 const Skills = () => {
   return (

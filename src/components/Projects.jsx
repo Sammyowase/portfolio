@@ -1,5 +1,5 @@
 import './Projects.css';
-import image from "../assets/download.jpg"
+
 
 const projects = [
   {

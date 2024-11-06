@@ -1,5 +1,6 @@
 /* src/Projects.css */
 .projects-section {
+    background: linear-gradient(135deg, #00aced, #0078ff);
     text-align: center;
     padding: 50px;
 }
@@ -17,7 +18,11 @@
 }
 
 .projects-grid {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #00aced, #0078ff);
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     max-width: 1200px;

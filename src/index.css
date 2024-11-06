@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Poppins","Montserrat", Arial, sans-serif;
   background-color: #f5f5f5;
   scroll-behavior: smooth;
   line-height: 1.6;
@@ -34,7 +34,7 @@ section {
 }
 
 button {
-  font-family: "Montserrat";
+  font-family: "Poppins";
   cursor: pointer;
   border: none;
   padding: 12px 24px;
